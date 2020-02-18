@@ -1,0 +1,47 @@
+.max-wid{
+    max-width:25%;
+}
+.font-size-15{
+    font-size: 15px;
+    font-weight: bold;
+}
+.text-color{
+    color:	#808080;
+}
+ul{
+    list-style-type: none;
+}
+
+.read-more{
+    color:black;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: underline;
+    display: inline-block;
+}
+.read-more::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #d04140;
+    transition: width .3s;
+}
+.read-more:hover::after {
+    width: 100%;   
+}
+.read-more:hover{
+    text-decoration: none;
+}
+.disp{
+    display: flex;
+}
+.ul-decor{
+    color: black;
+    opacity:0.5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ul-decor:hover{
+    opacity: 1;
+ }

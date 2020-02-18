@@ -1,0 +1,139 @@
+
+.font-family{
+    font-family:open_sansregular;
+}
+.font-size-19{
+    font-size: 21px;
+}
+.margin-left{
+    margin-left: 430px;
+}
+.col1-height{
+    line-height: 40px;
+}
+.p-height{
+    line-height: 25px;
+}
+.side-adj{
+    color:#828282;
+}
+.a-decor{
+     color: #ce5e5e;
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 20px;
+ }
+a:hover{
+     color: black;
+}
+.read-more{
+    color:black;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: underline;
+    display: inline-block;
+}
+.read-more::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #d04140;
+    transition: width .3s;
+}
+.read-more:hover::after {
+    width: 100%;   
+}
+.read-more:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.font-size-15{
+    font-size: 15px;
+    font-weight: bold;
+}
+.active_comp{
+    background-color: #d04140;
+    color: white;
+}
+h2{
+    font-weight: bold;
+}
+.ul-decor{
+    color: black;
+    opacity:0.5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.disp{
+    display: flex;
+}
+.max-wid{
+    max-width:25%;
+}
+.ul-decor:hover{
+   opacity: 1;
+}
+.text-color{
+    color:	#808080;
+} 
+.fa-facebook-official{
+    color:#3b5998;
+}
+.fa-twitter{
+    color:#007bff;
+}
+  .tab-border{
+      border:1px solid #828282;
+  }
+  .section5{
+      background-color: #f17983;
+      width:100%;
+  }
+  .font-color{
+      color: white;
+  }
+  .form-control{
+      background-color: none;
+  }
+  .rounded-pill{
+    background-color: #f17983;
+    padding:25px 25px;
+    border:2px solid white;
+  }
+  ::placeholder{
+    color:white;
+  }
+  .fa-telegram{
+      color:#d04140;
+  }
+  .disp-flex{
+      display:flex;
+      margin:10px;
+  }
+  .fa-facebook,.fa-twitter,.fa-instagram,.fa-linkedin{
+      color:#b8b3b3;
+      transform: scale(0.7);
+      transition: all 350ms ease-in-out;
+      border-radius: 50%;
+  }
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover,.fa-twitter:hover{
+    color: white;
+    background-color: #d04140;
+    transform: scale(0.8);
+}
+.ul-set{
+    padding-left:145px;
+    text-decoration:none;
+}
+.li-set{
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+}
+.h4-decor{
+    font-weight: 100;
+    padding-left: 550px;    
+}
